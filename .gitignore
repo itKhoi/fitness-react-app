@@ -12,7 +12,7 @@
 /build
 
 #environments
-api\venv\
+venv/
 
 # misc
 .DS_Store
