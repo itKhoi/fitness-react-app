@@ -1,0 +1,80 @@
+/* testing for varying screen sizes */
+
+.push {
+  margin: 3rem;
+}
+
+.push > table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  margin-bottom: 0;
+}
+
+.push > table > tbody > tr > .note {
+  word-break: break-all;
+  width: 60vh;
+}
+
+table > tr > th {
+  font-weight: normal;
+  font-family: "Andada Pro";
+}
+
+.table-bordered > thead > tr > th {
+  font-family: "Andada Pro";
+}
+
+.table-bordered > tbody > tr > th {
+  font-family: "Ubuntu";
+  font-weight: normal;
+  margin: 0;
+  padding: 0 0.5rem;
+}
+
+.table-bordered > tbody > tr > td {
+  font-weight: bold;
+}
+
+.table-bordered > tbody > tr > th > .btn {
+  font-weight: 700;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.push > .buttonContainer {
+  display: inline-block;
+  width: 80%;
+  margin-top: 5rem;
+}
+
+.homeButton,
+.addPush {
+  margin: 0 3rem;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 1px solid black;
+  font-weight: 550;
+  font-size: 1.5rem;
+}
+
+.addPush {
+  background-color: #7e72f3;
+}
+
+.homeButton {
+  background-color: #70ccf3;
+}
+
+/* testing for varying screen sizes */
+@media screen and (max-width: 600px) {
+  .push > table {
+    width: 100%;
+    margin: 0;
+  }
+
+  .push {
+    margin: 1rem;
+  }
+}

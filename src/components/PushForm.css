@@ -1,0 +1,77 @@
+h1 {
+  text-align: left;
+  padding-left: 0.5rem;
+  padding-top: 1rem;
+  font-size: 4rem;
+}
+
+.form-container {
+  margin-top: 0;
+}
+
+form > input,
+form > label,
+form > button,
+form > .style2 {
+  padding: 0.25rem;
+  margin: 0.5rem;
+
+  display: list-item;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form > input {
+  border: 1px solid black;
+}
+
+form > .btn-primary {
+  font-weight: bold;
+  color: white;
+  background-color: blue;
+  height: 6rem;
+  width: 6rem;
+  border-radius: 3rem;
+  margin-left: 3rem;
+}
+
+.btn-custom {
+  font-weight: bold;
+  color: white;
+  background-color: blue;
+  height: 6rem;
+  width: 6rem;
+  border-radius: 3rem;
+  margin-right: 2rem;
+}
+
+form > .style1 {
+  margin-top: 1rem;
+  margin-bottom: 0rem;
+
+  display: list-item;
+  margin-left: auto;
+  margin-right: auto;
+}
+form > .style2 {
+  overflow-wrap: break-word;
+
+  display: list-item;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.style1 > p,
+.style2 > p {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-family: "Andada Pro";
+}
+
+form > .style2 > textarea {
+  width: 300px;
+
+  display: list-item;
+  margin-left: auto;
+  margin-right: auto;
+}

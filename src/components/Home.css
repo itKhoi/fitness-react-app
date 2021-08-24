@@ -1,0 +1,51 @@
+.Home {
+  background-color: #d3d3d3;
+  min-height: 100vh;
+}
+h1 {
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.description {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.buttonContainer {
+  margin-top: 10rem;
+}
+
+.pushButton,
+.pullButton,
+.legButton {
+  margin: 1rem;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 1px solid black;
+  font-weight: 550;
+  font-size: 1.5rem;
+}
+
+.pushButton:hover,
+.pullButton:hover,
+.legButton:hover {
+  opacity: 90%;
+}
+
+.pushButton {
+  background-color: #70ccf3;
+  margin: 0 5rem;
+}
+
+.pullButton {
+  background-color: #7295f3;
+  margin: 0 5rem;
+}
+
+.legButton {
+  background-color: #7e72f3;
+  margin: 0 5rem;
+}
