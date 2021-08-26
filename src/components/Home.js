@@ -13,10 +13,12 @@ export default function Home() {
 
     const handlePull=()=>{
         console.log("I have been clicked");
+        history.push("/pull")
     }
 
     const handleLeg=()=>{
         console.log("I have been clicked");
+        history.push("/legs")
     }
     return (
         <div className="Home">

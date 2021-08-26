@@ -1,24 +1,16 @@
 import React, { useEffect, useState } from 'react';
 import "./App.css"
 import { Push } from './components/Push';
+import Pull from './components/Pull'
+import PullForm from './components/PullForm';
 import Home from './components/Home'
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 import { PushForm } from './components/PushForm';
+import Legs from './components/Legs'
 
 
 function App() {
-  /*const [push, setPush] = useState([])
-  
-  useEffect(()=>{
-    fetch('/push').then(response => 
-      response.json().then(data =>
-        {setPush(data.push);
-      })
-    );
-  },[])
-  
-  console.log(push);*/
-  
+ 
   return (
 
     <div className="App">
@@ -32,6 +24,15 @@ function App() {
           </Route>
           <Route path="/push_form">
             <PushForm/>
+          </Route>
+          <Route path="/pull">
+            <Pull/>
+          </Route>
+          <Route path="/pull_form">
+            <PullForm/>
+          </Route>
+          <Route path="/legs">
+            <Legs/>
           </Route>
         </Switch>
       </Router>

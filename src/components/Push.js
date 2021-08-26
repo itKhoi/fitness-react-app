@@ -64,7 +64,7 @@ export const Push = () => {
                     <thead>
                         <tr>
                             <th>Name</th>
-                            <th>Repts</th>
+                            <th>Reps</th>
                             <th>Sets</th>
                             <th>Description</th>
                             <th>Delete</th>

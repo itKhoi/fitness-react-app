@@ -1,10 +1,8 @@
-/* testing for varying screen sizes */
-
-.push {
+.pull {
   margin: 3rem;
 }
 
-.push > table {
+.pull > table {
   margin-left: auto;
   margin-right: auto;
   width: 95%;
@@ -16,8 +14,7 @@
   width: 60vh;
 }
 
-table > tr > th {
-  font-weight: normal;
+.table-bordered > thead > tr > th {
   font-family: "Andada Pro";
 }
 
@@ -38,14 +35,8 @@ table > tr > th {
   margin-bottom: auto;
 }
 
-.push > .buttonContainer {
-  display: inline-block;
-  width: 80%;
-  margin-top: 5rem;
-}
-
 .homeButton,
-.addPush {
+.addPull {
   margin: 0 3rem;
   width: 120px;
   height: 120px;
@@ -55,22 +46,22 @@ table > tr > th {
   font-size: 1.5rem;
 }
 
-.addPush {
+.addPull {
   background-color: #7e72f3;
 }
 
 .homeButton {
-  background-color: #70ccf3;
+  background-color: blueviolet;
 }
 
 /* testing for varying screen sizes */
 @media screen and (max-width: 600px) {
-  .push > table {
+  .pull > table {
     width: 100%;
     margin: 0;
   }
 
-  .push {
+  .pull {
     margin: 1rem;
   }
 }
